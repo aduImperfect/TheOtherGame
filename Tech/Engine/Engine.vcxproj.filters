@@ -28,6 +28,78 @@
     <Filter Include="Serialization">
       <UniqueIdentifier>{7fc3596b-7811-4881-bd95-4330673ee640}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Logging">
+      <UniqueIdentifier>{36649100-5b15-47fa-83c9-054facbc4e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory">
+      <UniqueIdentifier>{23912351-c3a0-4909-9e83-97209be060cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Messaging">
+      <UniqueIdentifier>{c960374a-29a2-4cd3-b82b-c6f924554518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Components">
+      <UniqueIdentifier>{864442e5-e343-4852-9843-2585799fb8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Component">
+      <UniqueIdentifier>{0ef3eb44-ee7b-4eab-81c0-9d30865b951e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\System">
+      <UniqueIdentifier>{99c2c680-893c-4132-b5d3-7c95e20998f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Utility">
+      <UniqueIdentifier>{155dc3f4-4753-4f57-947c-32dea8d93920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Components">
+      <UniqueIdentifier>{f339c6ea-a039-4bb9-bdb8-296b9ce5efd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\System">
+      <UniqueIdentifier>{1685c3ca-6d5b-496f-859a-1a77ef0f7611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\System">
+      <UniqueIdentifier>{335ce57a-ff11-4b9d-88c2-433153b90435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders">
+      <UniqueIdentifier>{ee88429d-29a0-48aa-ae7d-85a853801e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Components">
+      <UniqueIdentifier>{e9add6d1-fe6f-4fce-8c5e-d805b0b83fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\System">
+      <UniqueIdentifier>{3341baae-af54-4fef-8639-1e72eed3f984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Editor">
+      <UniqueIdentifier>{91a00e52-c3dc-46c5-bbb9-8608e4b01394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Messaging\Listeners/Callbacks">
+      <UniqueIdentifier>{ef60e49c-28f3-4027-b3c3-6a4e787067e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Memory\Level">
+      <UniqueIdentifier>{7807772b-2e82-42fb-88e1-bcef6f3f635d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision">
+      <UniqueIdentifier>{5eeac626-8d5d-4e40-9404-f2cbac4d5b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Registration">
+      <UniqueIdentifier>{56efc7be-688b-4c90-a4ab-9820445b3476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\AI">
+      <UniqueIdentifier>{f4fb407b-7329-4a0b-ac9b-a452ae780ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Script">
+      <UniqueIdentifier>{15ca2262-7a73-4a9c-bc46-808a58847115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ImGui Core">
+      <UniqueIdentifier>{5390679f-a9f8-4c41-81ec-b174b11843e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\NDL Core">
+      <UniqueIdentifier>{82c7be27-fbaf-40ec-8823-8c503a5744be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SimpleFileWatcher Core">
+      <UniqueIdentifier>{2156d402-8175-4398-8d44-a2a48d9dfa0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Renderer">
+      <UniqueIdentifier>{16de80cf-5675-4d72-ad6c-9a410494ff3a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -36,9 +108,24 @@
     <ClCompile Include="Precompiled.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Core\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Precompiled.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
       <Filter>Core</Filter>
     </ClInclude>
   </ItemGroup>
