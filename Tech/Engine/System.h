@@ -6,3 +6,17 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 
 #pragma once
+
+enum class SystemType
+{
+	Graphics,
+	Physics,
+	Input,
+	Audio,
+	UI,
+	Gameplay,
+
+	Count
+};
+
+/*TODO: System class*/

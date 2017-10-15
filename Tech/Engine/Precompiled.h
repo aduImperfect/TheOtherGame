@@ -31,7 +31,7 @@
 
 //YAML headers
 #include "yaml-cpp\yaml.h"
-/*TODO: YAML-Helpers.h*/
+#include "YAMLHelpers.h"
 
 //GLM headers
 #include "glm/glm.hpp"
@@ -42,6 +42,8 @@
 //FMOD headers
 #include "fmod.hpp"
 #include "fmod_errors.h"
+
+//GLEW headers
 #define GLEW_STATIC
 #include "glew.h"
 
@@ -55,3 +57,8 @@
 #include "Importer.hpp"
 #include "scene.h"
 #include "postprocess.h"
+
+//Type definitions
+typedef unsigned int uint;
+typedef unsigned int Handle;
+

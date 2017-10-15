@@ -100,6 +100,9 @@
     <Filter Include="UI\Renderer">
       <UniqueIdentifier>{16de80cf-5675-4d72-ad6c-9a410494ff3a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Memory\Factory">
+      <UniqueIdentifier>{9c8c062f-a7f2-4e85-9bb0-c7e08e7d0b49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -114,6 +117,9 @@
     <ClCompile Include="Core.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Core\Components</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Precompiled.h">
@@ -127,6 +133,21 @@
     </ClInclude>
     <ClInclude Include="Core.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="YAMLHelpers.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactoryBase.h">
+      <Filter>Core\Memory\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Core\Memory\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>Core\Memory\Factory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
